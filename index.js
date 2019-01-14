@@ -17,5 +17,5 @@ function destructivelyRemoveFirstKitten() {
 }
 function apprendKitten(name) {
   var name = "Broom"
-  return [name, ...kittens]
+  return [...kittens, name]
 }
